@@ -15,13 +15,13 @@ const DownloadSection = () => {
 	            <Card href="https://github.com/Arturo254/InnerTune/releases/download/0.6.0/app-foss-release-0.6.0.apk" 
 	            	className="max-w-sm text-center">
 			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
-			        Descargar version Estable
+			        Descargar versión Estable
 			      </h5>
 			      <div className="text-5xl text-black rounded-full">
 	                <i class="fi fi-brands-android"></i>
 	              </div>
 			      <p className="font-normal text-gray-700 dark:text-gray-400">
-			        Descarga la version de Android (APK) de InnerTune sin errores ni bugs.
+			        Descarga la versión de Android (APK) de InnerTune sin errores ni bugs.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto">
 				      <Button size="sm" gradientDuoTone="pinkToOrange">
@@ -38,13 +38,13 @@ const DownloadSection = () => {
 	            <Card href="https://github.com/Arturo254/InnerTune/releases/download/0.5.7/app-foss-release-0.5.7.apk" 
 	            	className="max-w-sm text-center">
 			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
-			        Descargar version Beta
+			        Descargar versión Beta
 			      </h5>
 			      <div className="text-5xl text-black rounded-full">
 	                <i class="fi fi-brands-android"></i>
 	              </div>
 			      <p className="font-normal text-gray-700 dark:text-gray-400">
-			        Descarga la version de Android (APK) de InnerTune con funciones y Caracteristicas experimentales.
+			        Descarga la versión de Android (APK) de InnerTune con funciones y Características experimentales.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto">
 				      <Button size="sm" gradientDuoTone="pinkToOrange">

@@ -4,6 +4,8 @@ import innerT from "../assets/media/img/mock.png";
 const ChangeSection = () => {
 	return (
 		<div className="mt-20">
+
+			{/* Encabezado principal de la seccion Cambios */}
 	      	<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
 		        <i class="fi fi-rr-it-alt"></i> Cambios y {" "}
 		        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
