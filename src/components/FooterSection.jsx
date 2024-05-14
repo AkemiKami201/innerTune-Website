@@ -4,7 +4,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
 const FooterSection = () => {
 	return (
 		<Footer bgDark>
-	      <div className="w-full">
+	      <div className="w-full bg-gray-800">
 	        <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
 	          <div>
 	            <Footer.Title title="Devs" />
@@ -35,21 +35,14 @@ const FooterSection = () => {
 	            </Footer.LinkGroup>
 	          </div>
 	        </div>
-	        <div className="w-full bg-gray-700 text-center px-4 py-6 sm:flex sm:items-center sm:justify-between">
+	        <div className="bg-slate-700 text-center px-4 py-6 sm:flex sm:items-center sm:justify-between">
 	          <Footer.Copyright href="https://github.com/ChronoLux616" by="ChronoLux™" year={2024} />
-	          <FooterBrand
+	          <FooterBrand className="justify-center p-4"
 	            href="https://github.com/Arturo254/InnerTune"
 	            src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
 	            alt="innerTube Logo"
 	            name="InnerTune"
 	          />
-	          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-	            <Footer.Icon href="#" icon={BsFacebook} />
-	            <Footer.Icon href="#" icon={BsInstagram} />
-	            <Footer.Icon href="#" icon={BsTwitter} />
-	            <Footer.Icon href="#" icon={BsGithub} />
-	            <Footer.Icon href="#" icon={BsDribbble} />
-	          </div>
 	        </div>
 	      </div>
 	    </Footer>

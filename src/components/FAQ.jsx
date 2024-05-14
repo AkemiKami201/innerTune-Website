@@ -5,15 +5,15 @@ const FAQSection = () => {
 	return (
 		<div className="mt-20">
 			<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-		        <i class="fi fi-sr-message-question"></i> Preguntas {" "}
-		        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-		        	Frecuentes
+		        Preguntas {" "}
+		        <span className="bg-gradient-to-r from-rose-500 to-rose-950 text-transparent bg-clip-text">
+		        	Frecuentes <i class="fi fi-sr-message-question"></i>
 		        </span>
 	      	</h2>
 
 			<div className="pt-14">
 	            <div className="flex mb-12">
-		            <div className="text-3xl text-yellow-300 sm:text-5xl lg:text-5xl p-4 text-center tracking-wide">
+		            <div className="text-3xl text-rose-500 sm:text-5xl lg:text-5xl p-4 text-center tracking-wide">
 		                <i class="fi fi-rr-messages-question"></i>
 		            </div>
 		            <div> 
@@ -24,7 +24,7 @@ const FAQSection = () => {
 		        </div>
 
 		        <div className="flex mb-12">
-		            <div className="text-3xl text-yellow-300 sm:text-5xl lg:text-5xl p-4 text-center tracking-wide">
+		            <div className="text-3xl text-rose-500 sm:text-5xl lg:text-5xl p-4 text-center tracking-wide">
 		                <i class="fi fi-rr-messages-question"></i>
 		            </div>
 		            <div> 

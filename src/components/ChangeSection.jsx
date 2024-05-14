@@ -8,7 +8,7 @@ const ChangeSection = () => {
 			{/* Encabezado principal de la seccion Cambios */}
 	      	<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
 		        <i class="fi fi-rr-it-alt"></i> Cambios y {" "}
-		        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+		        <span className="bg-gradient-to-r from-rose-500 to-rose-950 text-transparent bg-clip-text">
 		          Soluciones <i class="fi fi-sr-replace"></i>
 		        </span>
 	        </h2>
