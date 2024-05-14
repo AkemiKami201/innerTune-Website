@@ -15,7 +15,7 @@ const Navbar = () => {
 				<div className="flex justify-between items-center">
 					<div className="flex items-center flex-shrink-0">
 						<span className="text-xl tracking-tight">Inner</span>
-						<span className="text-xl bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">Tune 
+						<span className="text-xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune 
 						<i class="fi fi-rr-waveform-path"></i></span>
 					</div>
 					<ul className="hidden lg:flex ml-14 space-x-12">
@@ -29,7 +29,7 @@ const Navbar = () => {
 						<a href="https://github.com/Arturo254/InnerTune" className="py-2 px-3 border rounded-md">
 							Contribuir
 						</a>
-						<a href="https://github.com/Arturo254/InnerTune/releases" className="bg-gradient-to-r lg:flex from-orange-600 to-orange-900 py-2 px-4 rounded-md">
+						<a href="https://github.com/Arturo254/InnerTune/releases" className="bg-gradient-to-r lg:flex from-rose-500 to-rose-900 py-2 px-4 rounded-md">
 							Descargar
 						</a>
 					</div>
@@ -52,7 +52,7 @@ const Navbar = () => {
 							<a href="https://github.com/Arturo254/InnerTune" className="py-2 px-3 border rounded-md">
 								Contribuir
 							</a>
-							<a href="https://github.com/Arturo254/InnerTune/releases" className="py-2 px-4 rounded-md bg-gradient-to-r from-orange-600 to-orange-900">
+							<a href="https://github.com/Arturo254/InnerTune/releases" className="py-2 px-4 rounded-md bg-gradient-to-r from-rose-500 to-rose-900">
 								Descargar
 							</a>
 						</div>
