@@ -64,6 +64,21 @@ html,
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
+.carousel-item {
+  max-width: full; /* Ancho máximo del carrusel */
+  height: full; /* Altura del carrusel */
+  overflow: hidden; /* Para ocultar las partes de las imágenes que excedan el contenedor */
+}
+
+.carousel-item img {
+    max-width: none; /* Asegura que las imágenes no se redimensionen */
+    max-height: 100%; /* Las imágenes se ajustarán a la altura del contenedor */
+    width: auto; /* Ancho automático para mantener la relación de aspecto */
+    height: auto; /* Altura automática para mantener la relación de aspecto */
+    display: block; /* Asegura que las imágenes se muestren correctamente */
+    margin: auto; /* Centra las imágenes horizontalmente */
+  }
+
 body {
   margin: 0;
   /* 1 */

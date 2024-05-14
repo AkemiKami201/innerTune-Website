@@ -1,6 +1,7 @@
-import CarouselD from "../components/Carousel-MD";
+import Carousel1 from "../components/Carousel-MD";
 import { Carousel } from "flowbite-react";
 
+{/* Importacion de imagenes, subido por la plataforma Imgur */}
 const slides = [
     "https://i.imgur.com/1SQUGhw.jpg",
     "https://i.imgur.com/S5yvhQW.jpg",
@@ -12,25 +13,25 @@ const slides = [
     "https://i.imgur.com/IURqoK7.jpg",
     ]
 
+{/* Funcion importada de Carousel-MD.jsx */}
 const CarouselMD = () => {
-	return (
-		<main className="p-4 w-6/12 mx-auto">
-			<div className="container border w-20 rounded-lg border-neutral-700 rounded-xl md:container md:mx-auto p-4 mt-6 max-w-lg">
-				<CarouselD autoSlide={true} autoSlideInterval={5000}>
-						{slides.map((s) => (
-							<img className="rounded-lg" src={s} />
-							))}
-				</CarouselD>
-				
-				{/*<Carousel slideInterval={5000}>
-			        <img src="https://i.imgur.com/1SQUGhw.jpg" alt="..." />
-			        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-			        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-			        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-			        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
-			     </Carousel>*/}
-			</div>
-		</main>
+	return (			
+		<div className="grid h-56 grid-cols-2 gap-4 w-600 sm:h-64 xl:h-80 2xl:h-96">
+	      <Carousel>
+	        <img src="https://i.imgur.com/1SQUGhw.jpg" alt="..." />
+	        <img src="https://i.imgur.com/S5yvhQW.jpg" alt="..." />
+	        <img src="https://i.imgur.com/jcmFHvl.jpg" alt="..." />
+	        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
+	        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+	      </Carousel>
+	      <Carousel indicators={false}>
+	        <img src="https://i.imgur.com/1SQUGhw.jpg" alt="..." />
+	        <img src="https://i.imgur.com/S5yvhQW.jpg" alt="..." />
+	        <img src="https://i.imgur.com/jcmFHvl.jpg" alt="..." />
+	        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
+	        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+	      </Carousel>
+	    </div>
 	);
 };
 
