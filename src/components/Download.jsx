@@ -12,8 +12,7 @@ const DownloadSection = () => {
 		    </h2>
 
 		    <div className="flex flex-col items-center mt-6 p-16 lg:mt- ">
-	            <Card href="https://github.com/Arturo254/InnerTune/releases/download/0.6.0/app-foss-release-0.6.0.apk" 
-	            	className="max-w-sm text-center">
+	            <Card className="max-w-sm text-center text-white hover:bg-gray-300 ">
 			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
 			        Descargar versión Estable
 			      </h5>
@@ -24,7 +23,7 @@ const DownloadSection = () => {
 			        Descarga la versión de Android (APK) de InnerTune sin errores ni bugs.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto">
-				      <Button size="sm" gradientDuoTone="pinkToOrange">
+				      <Button href="https://github.com/Arturo254/InnerTune/releases/download/0.6.1/app-foss-release.apk" size="sm" gradientDuoTone="pinkToOrange">
 					    	<div className="text-3xl mx-3">
 			                	<i class="fi fi-rr-download"></i>
 			              	</div>
@@ -35,8 +34,7 @@ const DownloadSection = () => {
 	        </div>
 
 	        <div className="flex flex-col items-center mt-6 p-16 lg:mt- ">
-	            <Card href="https://github.com/Arturo254/InnerTune/releases/download/0.5.7/app-foss-release-0.5.7.apk" 
-	            	className="max-w-sm text-center">
+	            <Card className="max-w-sm text-center text-white hover:bg-gray-300">
 			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
 			        Descargar versión Beta
 			      </h5>
@@ -47,7 +45,7 @@ const DownloadSection = () => {
 			        Descarga la versión de Android (APK) de InnerTune con funciones y Características experimentales.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto">
-				      <Button size="sm" gradientDuoTone="pinkToOrange">
+				      <Button href="https://github.com/Arturo254/InnerTune/releases/download/0.6.1/app-foss-release.apk" size="sm" gradientDuoTone="pinkToOrange">
 					    	<div className="text-3xl mx-3">
 			                	<i class="fi fi-rr-download"></i>
 			              	</div>

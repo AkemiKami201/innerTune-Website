@@ -14,24 +14,22 @@ const FooterSection = () => {
 	            </Footer.LinkGroup>
 	          </div>
 	          <div>
-	            <Footer.Title title="Código del Proyecto" />
+	            <Footer.Title title="Código abierto" />
 	            <Footer.LinkGroup col>
 	              <Footer.Link href="https://github.com/Arturo254/InnerTune">Repositorio Oficial</Footer.Link>
-	              <Footer.Link href="#">Contactanos</Footer.Link>
 	            </Footer.LinkGroup>
 	          </div>
 	          <div>
-	            <Footer.Title title="Legal" />
+	            <Footer.Title title="Problemas?" />
 	            <Footer.LinkGroup col>
-	              <Footer.Link href="#">Politicas de privacidad</Footer.Link>
+	              <Footer.Link href="https://github.com/Arturo254/InnerTune/issues">Reportar fallos</Footer.Link>
 	              <Footer.Link href="https://raw.githubusercontent.com/Arturo254/InnerTune/master/LICENSE">Licencia</Footer.Link>
-	              <Footer.Link href="#">Terminos &amp; Condiciones</Footer.Link>
 	            </Footer.LinkGroup>
 	          </div>
 	          <div>
 	            <Footer.Title title="Descargar" />
 	            <Footer.LinkGroup col>
-	              <Footer.Link href="https://github.com/Arturo254/InnerTune/releases">Github</Footer.Link>
+	              <Footer.Link href="https://github.com/Arturo254/InnerTune/releases">Descargar ultima version</Footer.Link>
 	            </Footer.LinkGroup>
 	          </div>
 	        </div>

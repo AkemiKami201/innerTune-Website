@@ -24,8 +24,8 @@ const ChangeSection = () => {
 		                <CheckCircle2 />
 		              </div>
 		              <div>
-		                <h5 className="mt-1 mb-2 text-xl">Crasheos Y Cierres Inesperados.</h5>
-		                <p className="text-md text-neutral-500">Reproduce canciones de YT/YT Music sin anuncios</p>
+		                <h5 className="mt-1 mb-2 text-xl">Crasheos y Cierres Inesperados.</h5>
+		                <p className="text-md text-neutral-500">Reparación de fallos inesperados dentro de la aplicacion que provocaban su cierre inesperado</p>
 		              </div>
 		            </div>
 
@@ -35,7 +35,7 @@ const ChangeSection = () => {
 		              </div>
 		              <div>
 		                <h5 className="mt-1 mb-2 text-xl">Nueva UI (Interfaz De Usuario)</h5>
-		                <p className="text-md text-neutral-500">Reproduce musica estando fuera de la aplicacin</p>
+		                <p className="text-md text-neutral-500">Mejora en la interfaz de usuario, más interactiva para el usuario</p>
 		              </div>
 		            </div>
 
@@ -45,7 +45,7 @@ const ChangeSection = () => {
 		              </div>
 		              <div>
 		                <h5 className="mt-1 mb-2 text-xl">Se agrego un icono pequeño en la barra de Busqueda para ir a casa</h5>
-		                <p className="text-md text-neutral-500">Busque canciones, vídeos, álbumes y listas de reproducción de YouTube Music</p>
+		                <p className="text-md text-neutral-500">Para tener facil acceso al menu principal</p>
 		              </div>
 		            </div>
 
@@ -55,7 +55,7 @@ const ChangeSection = () => {
 		              </div>
 		              <div>
 		                <h5 className="mt-1 mb-2 text-xl">Rediseño de el reproductor</h5>
-		                <p className="text-md text-neutral-500">Administra toda tu musica favorita desde la biblioteca</p>
+		                <p className="text-md text-neutral-500">Modificacion del diseño añadiendo mejoras significativas</p>
 		              </div>
 		            </div>
 
@@ -65,7 +65,7 @@ const ChangeSection = () => {
 		              </div>
 		              <div>
 		                <h5 className="mt-1 mb-2 text-xl">Sincronizacion con cuenta de YouTube Music</h5>
-		                <p className="text-md text-neutral-500">Busque canciones, vídeos, álbumes y listas de reproducción de YouTube Music</p>
+		                <p className="text-md text-neutral-500">Para tener toda tu musica en un solo lugar</p>
 		              </div>
 		            </div>
 	        	</div>

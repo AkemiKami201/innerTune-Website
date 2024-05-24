@@ -89,7 +89,7 @@ const featureSection = () => {
 			              </div>
 			              <div>
 			                <h5 className="mt-1 mb-2 text-xl">Traductor de letras (experimental)</h5>
-			                <p className="text-md text-neutral-500">Nueva funcion para traducir distintas letras de canciones</p>
+			                <p className="text-md text-neutral-500">Nueva funcion para traducir la letra de tus canciones favoritas</p>
 			              </div>
 			            </div>
 
@@ -99,7 +99,7 @@ const featureSection = () => {
 			              </div>
 			              <div>
 			                <h5 className="mt-1 mb-2 text-xl">Ajustar el tempo/tono</h5>
-			                <p className="text-md text-neutral-500">Administra toda tu musica favorita desde la biblioteca</p>
+			                <p className="text-md text-neutral-500">Ajusta a tu gusto el tiempo, asi como el tono de tu musica</p>
 			              </div>
 			            </div>
 
@@ -109,7 +109,7 @@ const featureSection = () => {
 			              </div>
 			              <div>
 			                <h5 className="mt-1 mb-2 text-xl">Tema dinámico</h5>
-			                <p className="text-md text-neutral-500">Administra toda tu musica favorita desde la biblioteca</p>
+			                <p className="text-md text-neutral-500">Personaliza a tu preferencia el tema de la aplicación</p>
 			              </div>
 			            </div>
 
@@ -119,7 +119,7 @@ const featureSection = () => {
 			              </div>
 			              <div>
 			                <h5 className="mt-1 mb-2 text-xl">Soporte de inicio de sesión</h5>
-			                <p className="text-md text-neutral-500">Administra toda tu musica favorita desde la biblioteca</p>
+			                <p className="text-md text-neutral-500">Con integración de inicio de sesión, para sincronizar tu musica favoritas</p>
 			              </div>
 			            </div>
 			        </div>
