@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
     <Navbar />
-    <div className="max-w-7xl mx-auto pt-20 px-6">
+    <div className="max-w-7xl mx-auto pt-20 px-2">
       <MainSection />
       <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-gray/10" />
       <ActiveSlider />
@@ -23,9 +23,8 @@ const App = () => {
       <FAQSection />
       <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-gray/10" />
       <DownloadSection />
-      <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 dark:bg-gray/10" />
-      <FooterSection />
     </div>
+    <FooterSection />
     </>
   );
 };
