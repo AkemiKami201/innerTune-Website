@@ -16,7 +16,7 @@ const Navbar = () => {
 					<div className="flex items-center flex-shrink-0">
 						<span className="text-xl tracking-tight">Inner</span>
 						<span className="text-xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune 
-						<i class="fi fi-rr-waveform-path"></i></span>
+						</span><i class="fi fi-rr-waveform-path"></i>
 					</div>
 					<ul className="hidden lg:flex ml-14 space-x-12">
 						{navItems.map((item, index) => (
