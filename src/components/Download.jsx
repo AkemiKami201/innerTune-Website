@@ -5,9 +5,9 @@ const DownloadSection = () => {
 	return (
 		<div className="mt-20">
 	      	<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-		        <i class="fi fi-br-down-to-line"></i> Desca
+		        Desca
 		        <span className="bg-gradient-to-r from-rose-500 to-rose-950 text-transparent bg-clip-text">
-		          rgar
+		          rgar <i className="fi fi-br-down-to-line"></i>
 		        </span>
 		    </h2>
 
