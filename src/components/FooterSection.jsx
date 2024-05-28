@@ -9,17 +9,18 @@ import {
 } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
+import logo from "../assets/waveform-path.svg";
 
 const FooterSection = () => {
     return (
 	        <Footer className="bg-zinc-900" container>
 		      <div className="w-full">
 		        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-		          	<div className="flex items-center flex-shrink-0 m-4">
-		          		<img className="w-10 m-4 cursor-pointer" src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" />
-						<span className="text-3xl tracking-tight">Inner</span>
-						<span className="text-3xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune 
-						</span><i className="fi fi-rr-waveform-path p-2"></i>
+		          	<div className="flex items-center flex-shrink-0 m-4 font-bold">
+		          		<img className="w-10 mr-2 cursor-pointer" src="https://raw.githubusercontent.com/z-huang/InnerTune/dev/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" />
+						<span className="text-2xl tracking-tight">Inner</span>
+						<span className="text-2xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune 
+						</span><div className="ml-1 h-4"><i className="fi fi-rr-waveform-path"></i></div>
 					</div>
 		          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
 		            <div>

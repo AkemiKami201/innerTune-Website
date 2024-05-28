@@ -13,10 +13,10 @@ const Navbar = () => {
 		<nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
 			<div className="container px-4 mx-auto relative text-sm">
 				<div className="flex justify-between items-center">
-					<div className="flex items-center flex-shrink-0">
+					<div className="flex items-center flex-shrink-0 font-bold">
 						<span className="text-xl tracking-tight">Inner</span>
 						<span className="text-xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune 
-						</span><i class="fi fi-rr-waveform-path"></i>
+						</span><div className="ml-1"><i className="fi fi-rr-waveform-path"></i></div>
 					</div>
 					<ul className="hidden lg:flex ml-14 space-x-12">
 						{navItems.map((item, index) => (
@@ -40,7 +40,7 @@ const Navbar = () => {
 					</div>
 				</div>
 				{mobileDrawerOpen && (
-					<div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+					<div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center text-center lg:hidden">
 						<ul>
 							{navItems.map((item, index) => (
 								<li key={index} className="py-4">
