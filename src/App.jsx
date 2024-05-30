@@ -1,5 +1,5 @@
 import FeatureSection from "./components/Features"
-import ActiveSlider from "./components/ActiveSlider";
+import ActiveSlider from "./components/ActiveCarousel";
 import MainSection from "./components/MainSection";
 import ChangeSection from "./components/ChangeSection";
 import FAQSection from "./components/FAQ";
