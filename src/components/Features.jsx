@@ -6,7 +6,7 @@ const featureSection = () => {
 		<div className="mt-20">
 	      	<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
 		        <i class="fi fi-sr-star-shooting"></i> Características y {" "}
-		        <span className="bg-gradient-to-r from-rose-500 to-rose-950 text-transparent bg-clip-text">
+		        <span className="bg-gradient-to-r from-blue-600 to-blue-900 text-transparent bg-clip-text">
 		          funciones
 		        </span>
 		    </h2>

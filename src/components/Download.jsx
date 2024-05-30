@@ -6,7 +6,7 @@ const DownloadSection = () => {
 		<div className="mt-20">
 	      	<h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
 		        Desca
-		        <span className="bg-gradient-to-r from-rose-500 to-rose-950 text-transparent bg-clip-text">
+		        <span className="bg-gradient-to-r from-blue-600 to-blue-900 text-transparent bg-clip-text">
 		          rgar <i className="fi fi-br-down-to-line"></i>
 		        </span>
 		    </h2>
@@ -22,7 +22,7 @@ const DownloadSection = () => {
 			      <p className="font-normal text-gray-700 dark:text-gray-400">
 			        Descarga la versión de Android (APK) de InnerTune sin errores ni bugs.
 			      </p>
-			      <div className="flex flex-wrap gap-2 mx-auto">
+			      <div className="flex flex-wrap gap-2 mx-auto ">
 				      <Button href="https://github.com/Arturo254/InnerTune/releases/download/0.6.1/app-foss-release.apk" size="sm" gradientDuoTone="pinkToOrange">
 					    	<div className="text-3xl mx-3">
 			                	<i class="fi fi-rr-download"></i>
