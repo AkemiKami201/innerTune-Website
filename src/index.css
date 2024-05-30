@@ -84,6 +84,7 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color: rgb(17,24,39,255);
 }
 
 /*
