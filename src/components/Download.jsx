@@ -12,14 +12,14 @@ const DownloadSection = () => {
 		    </h2>
 
 		    <div className="flex flex-col items-center mt-6 p-16 lg:mt- ">
-	            <Card className="max-w-sm text-center text-white hover:bg-gray-300 ">
-			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
+	            <Card className="card-button max-w-sm bg-neutral-200 text-center hover:bg-gray-800">
+			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-100 dark:text-gray">
 			        Descargar versión Estable
 			      </h5>
-			      <div className="text-5xl text-black rounded-full">
+			      <div className="text-5xl text-white rounded-full">
 	                <i class="fi fi-brands-android"></i>
 	              </div>
-			      <p className="font-normal text-gray-700 dark:text-gray-400">
+			      <p className="font-normal text-gray-400 dark:text-gray-400">
 			        Descarga la versión de Android (APK) de InnerTune sin errores ni bugs.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto ">
@@ -34,7 +34,7 @@ const DownloadSection = () => {
 	        </div>
 
 	        <div className="flex flex-col items-center mt-6 p-16 lg:mt- ">
-	            <Card className="max-w-sm text-center text-white hover:bg-gray-300">
+	            <Card className="max-w-sm bg-neutral-200 text-center text-white hover:bg-gray-100">
 			      <h5 className="text-2xl font-bold text-lg tracking-tight text-gray-900 dark:text-gray">
 			        Descargar versión Beta
 			      </h5>
