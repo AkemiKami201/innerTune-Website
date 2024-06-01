@@ -70,6 +70,10 @@ html,
   overflow: hidden; /* Para ocultar las partes de las imágenes que excedan el contenedor */
 }
 
+.card-button {
+  background-color: rgb(17,24,39,255);
+}
+
 .carousel-item img {
     max-width: none; /* Asegura que las imágenes no se redimensionen */
     max-height: 100%; /* Las imágenes se ajustarán a la altura del contenedor */
