@@ -33,10 +33,10 @@ const ActiveSlider = () => {
           <SwiperSlide key={item.title}>
             <div className="flex flex-col gap-6 mb-20 group shadow-lg text-white rounded-xl px-6 py-8 h-[250px] w-[215px] lg:h-[600px] lg:w-[400px] overflow-hidden cursor-pointer">
               <div
-                className="absolute inset-0 bg-cover bg-center"
+                className="absolute inset-0 bg-cover bg-center rounded-xl"
                 style={{ backgroundImage: `url(${item.backgroundImage})` }}
               />
-              <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
+              <div className="absolute inset-0 bg-black opacity-10 rounded-xl group-hover:opacity-50" />
               <RxArrowTopRight className="absolute bottom-5 left-5 w-[35px] h-[35px] text-white group-hover:text-blue-500 group-hover:rotate-45 duration-100" />
             </div>
           </SwiperSlide>
