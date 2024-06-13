@@ -45,7 +45,7 @@ const DownloadSection = () => {
 			        Descarga la versión de Android (APK) de InnerTune con funciones y Características experimentales.
 			      </p>
 			      <div className="flex flex-wrap gap-2 mx-auto">
-				      <Button href="https://github.com/Arturo254/InnerTune/releases/download/0.6.1/app-foss-release.apk" size="sm" gradientDuoTone="pinkToOrange">
+				      <Button href="https://github.com/Arturo254/InnerTune/releases/download/0.6.1/app-foss-release-beta.apk" size="sm" gradientDuoTone="pinkToOrange">
 					    	<div className="text-3xl mx-3">
 			                	<i class="fi fi-rr-download"></i>
 			              	</div>
