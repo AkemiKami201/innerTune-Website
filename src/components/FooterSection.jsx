@@ -8,8 +8,6 @@ import {
   FooterTitle,
 } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-import { HiInformationCircle } from "react-icons/hi";
-import { Alert } from "flowbite-react";
 
 import logo from "../assets/waveform-path.svg";
 const year = new Date().getFullYear(); // get the current year
@@ -24,11 +22,6 @@ const FooterSection = () => {
 							<span className="text-2xl tracking-tight">Inner</span>
 							<span className="text-2xl bg-gradient-to-r from-rose-500 to-rose-900 text-transparent bg-clip-text">Tune </span>
 							<div className="ml-1 h-4"><i className="fi fi-rr-waveform-path"></i></div>
-						</div>
-						<div className="w-200 m-10 lg:mt-10 items-center">
-							<Alert color="failure" icon={HiInformationCircle}>
-				      <span className="font-medium">Info alert!</span> Change a few things up and try submitting again.
-				    </Alert>
 						</div>
 	          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
 	            <div>
