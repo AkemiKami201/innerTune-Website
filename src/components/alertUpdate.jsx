@@ -11,7 +11,7 @@ const AlertUp = () => {
           </div>
           <div className="ml-3 text-sm font-normal">
             <span className="mb-1 text-sm font-semibold text-gray-300 dark:text-white">Actualizaci&oacute;n disponible</span>
-            <div className="mb-2 text-sm font-normal text-gray-400 dark:text-white">Buenas Noticias. Llego la versi&oacute;n <strong>0.6.1</strong> de InnerTune.</div>
+            <div className="mb-2 text-sm font-normal text-gray-400 dark:text-white">Buenas Noticias. Llego la versi&oacute;n <strong>0.6.3</strong> de InnerTune.</div>
           </div>
           <Toast.Toggle className="bg-gray-500 text-gray-100 focus:ring-2" />
         </div>
