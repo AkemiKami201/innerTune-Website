@@ -19,8 +19,10 @@ const MainSection = () => {
 			</p>
 
 			<div className="flex justify-center my-10">
-				<a href="https://github.com/Arturo254/InnerTune/releases" className="bg-gradient-to-r from-yellow-500 to-red-900 py-3 px-4 mx-3 rounded-md">Probar Gratis</a>
-				<a href="https://github.com/Arturo254/InnerTune" className="py-3 px-4 mx-3 rounded-md border">Documentacion</a>
+				<a href="https://github.com/Arturo254/InnerTune/releases" className="bg-gradient-to-r from-yellow-500 to-red-900 py-3 px-4 mx-3 rounded-md" 
+					target="_blank">Probar Gratis</a>
+				<a href="https://github.com/Arturo254/InnerTune" className="py-3 px-4 mx-3 rounded-md border" 
+					target="_blank">Documentacion</a>
 			</div>
 		</div>
 	);

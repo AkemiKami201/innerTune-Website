@@ -59,7 +59,7 @@ const DownloadSection = () => {
 	        <div className="w-200 m-10 lg:mt-10 items-center">
 				<Alert color="failure" icon={HiInformationCircle}>
 			       	Esta es una versi&oacute;n beta de InnerTune, si tienes problemas con la app, por favor reportalos en el repositorio de GitHub. 
-			       	<a href="https://github.com/Arturo254/InnerTune/issues" className="font-bold"> Reportar problema</a>
+			       	<a href="https://github.com/Arturo254/InnerTune/issues" className="font-bold" target="_blank"> Reportar problema</a>
 				</Alert>
 			</div>
 		</div>
