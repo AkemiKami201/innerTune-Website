@@ -119,7 +119,7 @@ const featureSection = () => {
 			              </div>
 			              <div>
 			                <h5 className="mt-1 mb-2 text-2xl">Soporte de inicio de sesi&oacute;n</h5>
-			                <p className="text-md text-xl text-neutral-500">Con integraci&oacute;n de inicio de sesi&oacute;n, para sincronizar tu m&uacute;sica favoritas</p>
+			                <p className="text-md text-xl text-neutral-500">Con integraci&oacute;n de inicio de sesi&oacute;n, para sincronizar tu m&uacute;sica favorita</p>
 			              </div>
 			            </div>
 			        </div>
